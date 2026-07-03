@@ -5,9 +5,9 @@ const PORT = 4000;
 app.use(express.json());
 
 app.get("/", (req, res)=>{
-    res.send("Hello from harshy's server")
+    res.send("Hello from Harshy's server")
 })
 
 app.listen(PORT, ()=>{
-    console.log(`server listening on ${PORT}`)
+    console.log(`Server is listening on my ${PORT}`)
 })
